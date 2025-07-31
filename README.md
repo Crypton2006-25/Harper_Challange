@@ -6,7 +6,7 @@ A real-time trading portfolio API that tracks stock trades and calculates portfo
 
 A real-time trading portfolio management API built with Node.js and HarperDB Cloud. This application demonstrates modern backend development practices including RESTful API design, cloud database integration, and asynchronous programming patterns.
 
-## 🚀 Features
+##  Features
 
 - **Portfolio Management**: Track stock holdings with automatic average cost basis calculations
 - **Transaction History**: Complete audit trail of all buy/sell trades
@@ -22,13 +22,13 @@ A real-time trading portfolio management API built with Node.js and HarperDB Clo
 - **HTTP Client**: Axios
 - **Development**: VS Code, REST Client extension
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v14+ recommended)
 - HarperDB Cloud account
 - Git
 
-## 🔧 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -57,7 +57,7 @@ A real-time trading portfolio management API built with Node.js and HarperDB Clo
    - Table: `trades` (hash_attribute: `id`)
    - Table: `portfolio` (hash_attribute: `symbol`)
 
-## 🚀 Running the Application
+##  Running the Application
 
 1. **Start the server**
    ```bash
@@ -78,7 +78,7 @@ A real-time trading portfolio management API built with Node.js and HarperDB Clo
    
    Visit `http://localhost:3000` to confirm the server is running.
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Base URL
 ```
@@ -206,7 +206,7 @@ Client Request → Express Router → Business Logic → HarperDB Cloud → Resp
 - `quantity` (number): Total shares owned
 - `avg_price` (number): Average cost basis per share
 
-## 🔍 Technical Highlights
+##  Technical Highlights
 
 ### Asynchronous Programming
 - Uses `async/await` throughout for clean, readable code
@@ -223,7 +223,7 @@ Client Request → Express Router → Business Logic → HarperDB Cloud → Resp
 - RESTful communication using axios HTTP client
 - Basic Authentication for secure database access
 
-## 🌟 Why This Tech Stack?
+##  Why This Tech Stack?
 
 **Node.js**: Perfect for I/O-heavy applications like trading systems. The event loop handles multiple concurrent requests without blocking.
 
@@ -231,7 +231,7 @@ Client Request → Express Router → Business Logic → HarperDB Cloud → Resp
 
 **Express.js**: Minimal, fast web framework that doesn't get in the way of business logic.
 
-## 🚀 Potential Enhancements
+##  Potential Enhancements
 
 - **Real-time Price Integration**: Connect to financial APIs for live stock prices
 - **Portfolio Analytics**: Add performance metrics, profit/loss calculations
@@ -239,7 +239,7 @@ Client Request → Express Router → Business Logic → HarperDB Cloud → Resp
 - **WebSocket Integration**: Real-time portfolio updates for connected clients
 - **Sell Order Logic**: Complete the trading cycle with sell order processing
 
-## 🤝 Contributing
+##  Contributing
 
 This project was built as a demonstration of Node.js and HarperDB integration. Feel free to fork and extend!
 
