@@ -14,7 +14,7 @@ A real-time trading portfolio management API built with Node.js and HarperDB Clo
 - **Cloud Persistence**: Data stored in HarperDB Cloud for scalability and reliability
 - **RESTful Design**: Clean API endpoints following REST conventions
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Runtime**: Node.js
 - **Web Framework**: Express.js
