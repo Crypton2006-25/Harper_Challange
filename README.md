@@ -32,7 +32,7 @@ A real-time trading portfolio management API built with Node.js and HarperDB Clo
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/trading-portfolio-api.git
+   git clone https://github.com/Crypton2006-25/Harper_Challange.git
    cd trading-portfolio-api
    ```
 
