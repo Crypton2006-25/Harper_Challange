@@ -157,7 +157,7 @@ Content-Type: application/json
 }
 ```
 
-## 🧪 Testing
+##  Testing
 
 Use the included `test-api.http` file with VS Code's REST Client extension:
 
@@ -177,7 +177,7 @@ Content-Type: application/json
 }
 ```
 
-## 🏗 Architecture
+##  Architecture
 
 ### Application Flow
 ```
