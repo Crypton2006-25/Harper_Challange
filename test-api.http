@@ -1,0 +1,39 @@
+### Test the basic endpoint
+GET http://localhost:3000/
+
+###
+
+### Get current portfolio
+GET http://localhost:3000/portfolio
+
+###
+
+### Get trade history
+GET http://localhost:3000/trades
+
+###
+
+### Record a new BUY trade
+POST http://localhost:3000/trades
+Content-Type: application/json
+
+{
+  "symbol": "NVDA",
+  "type": "BUY",
+  "quantity": 3,
+  "price": 450.00
+}
+
+###
+
+### Record another trade
+POST http://localhost:3000/trades
+Content-Type: application/json
+
+{
+  "symbol": "AAPL", 
+  "type": "BUY",
+  "quantity": 5,
+  "price": 155.00
+}
+
