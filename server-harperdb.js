@@ -5,8 +5,8 @@ const PORT = 3000;
 
 // HarperDB configuration
 const HARPERDB_URL = 'https://trading-api-jphelps.harperdbcloud.com';
-const HARPERDB_USERNAME = 'crypton';
-const HARPERDB_PASSWORD = '1work@Harper';
+const HARPERDB_USERNAME = 'USERNAME';
+const HARPERDB_PASSWORD = 'PASSWORD';
 
 // Middleware
 app.use(express.json());
